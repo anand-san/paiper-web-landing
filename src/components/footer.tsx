@@ -26,7 +26,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-background text-foreground relative w-full">
+    <footer className="bg-background text-foreground relative w-full pt-24 md:pt-40">
       <hr />
       <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-background"></div>
       <div className="container mx-auto px-4 py-12 relative">
