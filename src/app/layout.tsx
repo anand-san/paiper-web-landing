@@ -13,6 +13,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1.0,
+};
+
 export const metadata: Metadata = {
   title: "Paiper App - Your Ultimate Document Intelligence Hub",
   description:
@@ -20,7 +25,6 @@ export const metadata: Metadata = {
   keywords:
     "Paiper App, Document Intelligence, AI, Document Management, Predictive Analytics, Contract Risk Management, AI Categorization, Cloud Document Management",
   authors: [{ name: "Paiper Team", url: "https://paiper.app" }],
-  viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   openGraph: {
     title: "Paiper App - Your Ultimate Document Intelligence Hub",
